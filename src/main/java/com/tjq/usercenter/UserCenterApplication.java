@@ -12,5 +12,6 @@ public class UserCenterApplication {
         SpringApplication.run(UserCenterApplication.class, args);
     }
 
+
 }
 

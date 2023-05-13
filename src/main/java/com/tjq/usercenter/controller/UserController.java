@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = {"*"},allowCredentials = "true")
 public class UserController {
 
     @Resource
